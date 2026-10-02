@@ -29,7 +29,7 @@ public class MovieFileReaderTest {
 
         MovieFileReader reader = new MovieFileReader();
 
-        List<Movie> movies = reader.readMovies("Movies.txt");
+        List<Movie> movies = reader.readMovies("movies.txt");
 
         Movie movie = movies.get(0);
 
@@ -52,7 +52,7 @@ public class MovieFileReaderTest {
 
         MovieFileReader reader = new MovieFileReader();
 
-        List<Movie> movies = reader.readMovies("Movies.txt");
+        List<Movie> movies = reader.readMovies("movies.txt");
 
         Movie movie = movies.get(8);
 
@@ -73,7 +73,7 @@ public class MovieFileReaderTest {
 
         MovieFileReader reader = new MovieFileReader();
 
-        List<Movie> movies = reader.readMovies("Movies.txt");
+        List<Movie> movies = reader.readMovies("movies.txt");
 
         Movie movie = movies.get(16);
 
@@ -96,7 +96,7 @@ public class MovieFileReaderTest {
 
         MovieFileReader reader = new MovieFileReader();
 
-        List<Movie> movies = reader.readMovies("Movies.txt");
+        List<Movie> movies = reader.readMovies("movies.txt");
 
         Movie movie = movies.get(24);
 
