@@ -1,0 +1,110 @@
+﻿158.710 Practical Software Engineering
+Assignment 3 - Code Metrics Report
+Cinema Ticket Management System
+
+==================================================
+1. Lines of Code
+==================================================
+
+Total Physical LOC: 1,797
+
+The LOC value represents the total number of physical lines
+across the 17 production Java source files.
+
+==================================================
+2. Number of Methods (NOM)
+==================================================
+
+Total Number of Methods (NOM): 82
+
+Average Physical LOC per Method:
+
+1,797 / 82 = 21.91
+
+Average Physical LOC per Method: 21.91
+
+Constructors are included in the NOM count.
+
+==================================================
+3. Cyclomatic Complexity
+==================================================
+
+The project complexity was estimated by counting the following
+decision points:
+
+    if statements       : 25
+    for loops            : 6
+    while loops          : 1
+    case labels          : 9
+    catch blocks         : 10
+    ternary operators    : 1
+
+Total decision points: 52
+
+Using one base complexity for each of the 82 methods:
+
+Total Cyclomatic Complexity
+= NOM + decision points
+= 82 + 52
+= 134
+
+Estimated Total Cyclomatic Complexity: 134
+
+Note: This is a source-level estimate based on decision-point
+counting rather than a full Java AST/static-analysis tool.
+
+==================================================
+4. Efferent Coupling
+==================================================
+
+Efferent Coupling (Ce) is measured as the number of distinct
+project classes from other packages that each class depends on.
+
+Java standard library dependencies such as java.util, java.io,
+java.awt and javax.swing are excluded.
+
+Self-imports are also excluded.
+
+Class                                      Ce
+--------------------------------------------------
+main.java                                   1
+DuplicateMovieException.java                0
+MovieNotFoundException.java                 0
+LoginFrame.java                             2
+MainFrame.java                              1
+MoviePanel.java                            10
+ActionMovie.java                             0
+ComedyMovie.java                             0
+Movie.java                                   0
+RomanceMovie.java                            0
+ScienceFictionMovie.java                     0
+LoginService.java                            3
+MovieFileReader.java                         6
+MovieManager.java                            7
+Manager.java                                 0
+Staff.java                                   0
+TicketSeller.java                            0
+--------------------------------------------------
+Total Efferent Coupling:                    30
+
+==================================================
+5. Summary
+==================================================
+
+The Cinema Ticket Management System contains 1,797 physical
+lines of production Java code and 82 methods.
+
+The average physical size is approximately 21.91 lines per
+method.
+
+The estimated total cyclomatic complexity is 134, based on
+52 identified decision points and a base complexity of one
+for each method.
+
+The total class-level efferent coupling is 30. MoviePanel has
+the highest efferent coupling because it coordinates the GUI
+with movie models, services, staff and exception classes.
+
+Overall, the metrics provide an indication of the size,
+structural complexity and inter-class dependencies of the
+Cinema Ticket Management System.
