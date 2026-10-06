@@ -3,7 +3,7 @@
 ## Group Members
 
 - Honghui Li [26028159]
-- Michael [PARTNER-STUDENT-ID]
+- Hui Wang [26017658]
 
 ## GitHub Repository
 
