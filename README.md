@@ -3,7 +3,7 @@
 ## Group Members
 
 - Honghui Li [26028159]
-- Michael [PARTNER-STUDENT-ID]
+- Hui Wang [26017658]
 
 ## GitHub Repository
 
@@ -180,6 +180,8 @@ The project uses:
 3. Pull Requests
 4. GitHub Issues
 5. GitHub Actions
+
+GitHub Actions automatically runs the Maven test suite when changes are pushed to the repository or when a pull request is created. This helps verify that the project builds and the JUnit tests pass before changes are merged into the main branch.
 
 ## Project Structure
 
